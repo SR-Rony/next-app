@@ -8,12 +8,14 @@ module.exports = {
   ],
   presets: [require("keep-react/preset")],
   theme: {
+    container: {
+      padding: '2rem',
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        'primary': '#D30832',
+        'secoundary': '#FDD62D',
+      }
     },
   },
   plugins: [],
