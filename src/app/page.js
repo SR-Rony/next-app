@@ -1,10 +1,13 @@
+import Hero from "@/components/hero/Hero";
+
 
 
 export default function Home() {
-  
-
-
   return (
-    <h1>Welcome to nex js</h1>
+    <div >
+        <div className="container"> 
+          <Hero/>
+        </div>
+    </div>
   );
 }
